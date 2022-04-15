@@ -25,7 +25,7 @@ function onDOMContentLoaded() {
 }
 
 function getParams(url) {
-  const paramsStr = url.split('?')[1] || [];
+  const paramsStr = url.split('?')[1] || '';
   const paramsStrArr = paramsStr.split('&');
   return paramsStrArr.reduce((acc, paramStr) => {
     const chips = paramStr.split('=');

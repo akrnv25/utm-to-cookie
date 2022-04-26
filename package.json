@@ -1,0 +1,23 @@
+{
+  "name": "utm-to-cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korenev6052/utm-to-cookie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korenev6052/utm-to-cookie/issues"
+  },
+  "homepage": "https://github.com/korenev6052/utm-to-cookie#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
